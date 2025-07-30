@@ -1,4 +1,3 @@
-# FROM node:20-alpine
 # 1. Get Bun Image
 FROM oven/bun:latest
 
@@ -18,5 +17,5 @@ COPY . .
 EXPOSE 3000
 
 # 7. Start the app
-RUN echo "🚀 App starting."
 CMD ["bun", "run", "index.js"]
+RUN echo "🚀 App starting."
