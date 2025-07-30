@@ -1,0 +1,9 @@
+version: 3.8
+
+services:
+  gamedig-api:
+    build: .
+    container_name: gameserver-query-api
+    ports:
+      - "33110:3000"
+    restart: unless-stopped

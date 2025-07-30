@@ -1,0 +1,15 @@
+{
+  "name": "game_query",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "gamedig": "^5.3.1"
+  }
+}
